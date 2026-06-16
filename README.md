@@ -29,9 +29,9 @@ O projeto foca em alta resiliência, utilizando padrões de engenharia como **Se
 * **MSS**: Captura de tela nativa de ultra-baixa latência.
 * **Tkinter**: *Framework* nativo para a Interface Gráfica.
 
----
-## 📂 Estrutura do Projeto
 
+## 📂 Estrutura do Projeto
+```text
 /
 ├── assets/                       # Assets visuais obrigatórios e TXT de saída
 │   ├── transmitidas.html         # Relatório base de nomes (input opcional do usuário)
@@ -49,8 +49,7 @@ O projeto foca em alta resiliência, utilizando padrões de engenharia como **Se
 ├── app_manager.py                # Gerência do ciclo de vida de Processos do SO
 ├── html_processor.py             # Limpeza e extração de dados
 └── build.py                      # Script de empacotamento com PyInstaller
-
----
+```
 
 ## ⚙️ Instalação e Execução (Modo Desenvolvedor)
 
@@ -59,8 +58,10 @@ Clone o repositório, entre na pasta, e configure seu ambiente virtual:
 1. Inicialize um ambiente virtual 
 `uv venv && uv init`
 2. Ative o ambiente criado (no windows)
-`.\.venv\Scripts\activate.ps1`  [powershell]
-`.venv\Scripts\activate`        [cmd]
+```text
+.\.venv\Scripts\activate.ps1  [powershell]
+.venv\Scripts\activate        [cmd]
+```
 2. Instale as dependências:
 `uv sync`
 3. Execute o orquestrador:
