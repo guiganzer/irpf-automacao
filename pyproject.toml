@@ -1,7 +1,7 @@
 [project]
 name = "irpf-automacao"
 version = "1.0"
-description = "Sistema RPA que automatiza a Exportação de Declarações de IRPF transmitidas e seus Recibos utilizando visão computacional"
+description = "Sistema RPA que automatiza a Exportação de Declarações de IRPF transmitidas e seus Recibos utilizando visão computacional entre outras ferramentas do ecosistema de python"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
